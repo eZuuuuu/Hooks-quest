@@ -1,0 +1,34 @@
+.counter {
+    border-radius: 100px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 50px;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+    background-color:green;
+  }
+
+  .button2 {
+    border-radius: 50px;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+    background-color: red;
+  }
+
+.button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px green;
+}
+
+.button2:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px red;
+}
